@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        img {
+            position: relative;
+        }
+        
+        img::after {
+            content: url(./img/zw.png);
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: url(iphonex.png ) no-repeat center;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="">
+</body>
+<script>
+    setTimeout(function() {
+        document.querySelectorAll("img")[0].src = '//upload-images.jianshu.io/upload_images/7450593-65067eb4cf76d882.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240';
+    }, 3000);
+</script>
+
+</html>

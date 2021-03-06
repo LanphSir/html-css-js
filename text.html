@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #d1{
+            width: 500px;
+            height: 500px;
+            border: solid 1px skyblue;
+            background-color: blue;
+            margin: 0px auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1"></div>
+    <script>
+        var d=document.getElementById("d1");
+        alert(document.getElementById("d1").style.width+"px");
+        alert(getComputedStyle(d).width);
+    </script>
+</body>
+</html>
